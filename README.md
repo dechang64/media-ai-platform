@@ -54,12 +54,12 @@
 
 | Component | Technology |
 |-----------|------------|
-| Backend | Python 3.9+ |
-| Deep Learning | PyTorch |
-| Optimization | NumPy, GPy |
-| Federated Learning | Custom + PySyft |
+| Backend | Python 3.9+ (Pure NumPy) |
+| Optimization | NumPy — no PyTorch/TensorFlow |
+| Federated Learning | Pure NumPy FedAvg + DP |
+| Computer Vision | Pure NumPy — no heavy ML libs |
 | UI | Streamlit |
-| Data | Pandas, SQLAlchemy |
+| Data | Pandas |
 
 ---
 
