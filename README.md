@@ -50,16 +50,25 @@
 
 ---
 
-## 📋 Tech Stack
+## 📋 Tech Stack (Aligned with unified-fl-backend)
 
+### Option 1: Python+Streamlit (Demo)
 | Component | Technology |
 |-----------|------------|
 | Backend | Python 3.9+ (Pure NumPy) |
-| Optimization | NumPy — no PyTorch/TensorFlow |
-| Federated Learning | Pure NumPy FedAvg + DP |
-| Computer Vision | Pure NumPy — no heavy ML libs |
 | UI | Streamlit |
 | Data | Pandas |
+
+### Option 2: Rust (Production - aligned with unified-fl-backend)
+| Component | Technology |
+|-----------|------------|
+| Runtime | Rust 1.75+ |
+| Vector Search | Self-implemented HNSW |
+| FL | FedAvg/FedProx + DP (Laplace/Gaussian) |
+| Audit | SHA-256 + Ed25519 |
+| gRPC | tonic + prost |
+| REST | axum 0.8 |
+| Persistence | rusqlite |
 
 ---
 
