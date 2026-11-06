@@ -78,7 +78,7 @@ class KnowledgeHub:
     无血清培养基适用于特定应用。
             """,
             tags=["血清", "无血清", "优化"],
-            citations["文献1"]
+            citations=["文献1"]
         ))
 
         # ===== BIOLOGY KNOWLEDGE =====
@@ -117,7 +117,7 @@ class KnowledgeHub:
    (Box-Behnken设计, Central Composite设计)
             """,
             tags=["RSM", "实验设计", "优化"],
-            citations["Box, 1951"]
+            citations=["Box, 1951"]
         ))
 
         self.add_entry(KnowledgeEntry(
@@ -129,7 +129,7 @@ class KnowledgeHub:
     高斯过程作为代理模型，EI作为采集函数。
             """,
             tags=["贝叶斯", "高斯过程", "EI"],
-            citations["Mockus, 1974"]
+            citations=["Mockus, 1974"]
         ))
 
         # ===== FEDERATED LEARNING KNOWLEDGE =====
@@ -143,7 +143,7 @@ class KnowledgeHub:
     安全聚合防止模型逆向攻击。
             """,
             tags=["联邦学习", "差分隐私", "安全聚合"],
-            citations["McMahan, 2017"]
+            citations=["McMahan, 2017"]
         ))
 
         # ===== COMPONENT INTERACTIONS =====
